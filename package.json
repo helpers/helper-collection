@@ -1,0 +1,68 @@
+{
+  "name": "helper-collection",
+  "description": "Async collection helper for assemble.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/helpers/helper-collection",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "helpers/helper-collection",
+  "bugs": {
+    "url": "https://github.com/helpers/helper-collection/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "assemble": "^0.19.0",
+    "gulp-format-md": "^0.1.11",
+    "handlebars-helper-each": "^0.1.2",
+    "handlebars-helpers": "^0.8.0",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "assemble",
+    "collection",
+    "compile",
+    "each",
+    "helper",
+    "helpers",
+    "iterate",
+    "pages",
+    "posts",
+    "render",
+    "template",
+    "templates"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "handlebars-helper-each",
+        "handlebars-helpers",
+        "template-helpers"
+      ]
+    },
+    "reflinks": [
+      "generate",
+      "generate-helper",
+      "helpers"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
