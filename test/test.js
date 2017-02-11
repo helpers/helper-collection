@@ -13,8 +13,8 @@ describe('helper-collection', function() {
     app = assemble();
     app.create('posts');
 
-    app.asyncHelper('each', require('handlebars-helper-each'));
-    app.asyncHelper('collection', helper);
+    app.helper('each', require('handlebars-helper-each'));
+    app.helper('collection', helper);
 
     app.helper('sortBy', function(items, prop) {
       return items.sortBy(prop);
