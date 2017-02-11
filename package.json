@@ -1,7 +1,7 @@
 {
   "name": "helper-collection",
   "description": "Collection helper for assemble (or any other https://github.com/jonschlinkert/templates application)",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/helpers/helper-collection",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "helpers/helper-collection",
